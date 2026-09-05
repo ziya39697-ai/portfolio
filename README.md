@@ -2,7 +2,7 @@
 
 Personal portfolio for **Jiya Yadav** — HR Intern. Built with Next.js 14, Tailwind, Framer Motion, and Three.js, with a working contact form backed by Nodemailer + MongoDB.
 
-Live: https://jiya-portfolio.vercel.app
+Live: https://jiya-portfolio-hr.vercel.app
 
 ## What's inside
 

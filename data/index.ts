@@ -104,7 +104,7 @@ export const projects = [
     slug: "recruitment-tracker",
     title: "Recruitment Management Google Sheet",
     des: "A 6-tab Google Sheets tracker covering sourcing, screening, interviews, selection, and a live hiring dashboard for 9 HR intern candidates.",
-    img: "/b5.svg",
+    img: "/projects/sheets-tracker.svg",
     iconLists: [],
     link: SHEET_URL,
     stack: [
@@ -137,7 +137,7 @@ export const projects = [
     slug: "interview-scorecard",
     title: "Interview Evaluation Scorecard",
     des: "A structured interview rubric scoring Communication, HR Knowledge, Problem Solving, and Confidence — used on 7 shortlisted interviews.",
-    img: "/p1.svg",
+    img: "/projects/excel-scorecard.svg",
     iconLists: [],
     link: SHEET_URL,
     stack: [

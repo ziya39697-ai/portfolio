@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" rx="24" fill="#0F3D2E"/>
+  <rect x="28" y="28" width="584" height="344" rx="16" fill="#F4FBF6" stroke="#217346" stroke-width="3"/>
+  <rect x="28" y="28" width="584" height="52" rx="16" fill="#217346"/>
+  <rect x="28" y="64" width="584" height="16" fill="#217346"/>
+  <text x="48" y="60" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">Recruitment Tracker</text>
+  <text x="430" y="60" fill="#C8E6D3" font-family="Arial, sans-serif" font-size="13">Dashboard · 6 tabs</text>
+  <g font-family="Arial, sans-serif" font-size="12">
+    <rect x="44" y="96" width="88" height="28" fill="#217346"/>
+    <text x="58" y="115" fill="#FFFFFF" font-weight="700">Name</text>
+    <rect x="132" y="96" width="110" height="28" fill="#185C38"/>
+    <text x="146" y="115" fill="#FFFFFF" font-weight="700">Source</text>
+    <rect x="242" y="96" width="110" height="28" fill="#217346"/>
+    <text x="256" y="115" fill="#FFFFFF" font-weight="700">Stage</text>
+    <rect x="352" y="96" width="100" height="28" fill="#185C38"/>
+    <text x="366" y="115" fill="#FFFFFF" font-weight="700">Score</text>
+    <rect x="452" y="96" width="144" height="28" fill="#217346"/>
+    <text x="470" y="115" fill="#FFFFFF" font-weight="700">Status</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#1F2937">
+    <rect x="44" y="124" width="552" height="36" fill="#E8F5EE"/>
+    <text x="56" y="147">Asha Verma</text>
+    <text x="146" y="147">LinkedIn</text>
+    <text x="256" y="147">Interview</text>
+    <text x="380" y="147">16</text>
+    <text x="470" y="147" fill="#217346" font-weight="700">Selected</text>
+    <rect x="44" y="160" width="552" height="36" fill="#FFFFFF"/>
+    <text x="56" y="183">Rahul Singh</text>
+    <text x="146" y="183">Indeed</text>
+    <text x="256" y="183">Screening</text>
+    <text x="380" y="183">14</text>
+    <text x="470" y="183" fill="#B45309" font-weight="700">In review</text>
+    <rect x="44" y="196" width="552" height="36" fill="#E8F5EE"/>
+    <text x="56" y="219">Neha Kapoor</text>
+    <text x="146" y="219">Referral</text>
+    <text x="256" y="219">Offer</text>
+    <text x="380" y="219">17</text>
+    <text x="470" y="219" fill="#217346" font-weight="700">Joining</text>
+    <rect x="44" y="232" width="552" height="36" fill="#FFFFFF"/>
+    <text x="56" y="255">Aman Joshi</text>
+    <text x="146" y="255">LinkedIn</text>
+    <text x="256" y="255">Sourcing</text>
+    <text x="380" y="255">12</text>
+    <text x="470" y="255" fill="#6B7280" font-weight="700">Contacted</text>
+  </g>
+  <g>
+    <rect x="44" y="288" width="168" height="60" rx="10" fill="#217346"/>
+    <text x="60" y="314" fill="#C8E6D3" font-family="Arial, sans-serif" font-size="12">Candidates</text>
+    <text x="60" y="336" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">9</text>
+    <rect x="228" y="288" width="168" height="60" rx="10" fill="#185C38"/>
+    <text x="244" y="314" fill="#C8E6D3" font-family="Arial, sans-serif" font-size="12">Interviewed</text>
+    <text x="244" y="336" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">7</text>
+    <rect x="412" y="288" width="184" height="60" rx="10" fill="#0B5C38"/>
+    <text x="428" y="314" fill="#C8E6D3" font-family="Arial, sans-serif" font-size="12">Selected</text>
+    <text x="428" y="336" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">3</text>
+  </g>
+</svg>

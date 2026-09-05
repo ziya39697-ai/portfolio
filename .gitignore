@@ -34,7 +34,7 @@ yarn-error.log*
 
 # personal docs / private files
 *.pdf
-!public/Nikhil_Koshal_Resume.pdf
+!public/Jiya_Yadav_Resume.pdf
 
 # vercel
 .vercel

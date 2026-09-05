@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
@@ -66,14 +66,25 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                <div className="flex items-center gap-5">
+                  {item.link && (
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center lg:text-xl md:text-xs text-sm text-purple"
+                    >
+                      View
+                      <FaArrowUpRightFromSquare className="ms-2" size={12} />
+                    </a>
+                  )}
                   <Link
                     href={`/projects/${item.slug}`}
-                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                    className="flex items-center lg:text-xl md:text-xs text-sm text-purple"
                   >
                     Read case study
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </Link>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>

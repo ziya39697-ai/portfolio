@@ -66,7 +66,7 @@ export default async function Image() {
             fontSize: 22,
           }}
         >
-          jiya-portfolio.vercel.app
+          jiya-portfolio-hr.vercel.app
         </div>
       </div>
     ),

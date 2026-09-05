@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" rx="24" fill="#123524"/>
+  <rect x="28" y="28" width="584" height="344" rx="16" fill="#FBFFFC" stroke="#21A366" stroke-width="3"/>
+  <rect x="28" y="28" width="52" height="344" rx="16" fill="#217346"/>
+  <rect x="64" y="28" width="16" height="344" fill="#217346"/>
+  <g fill="#D1FAE5" font-family="Arial, sans-serif" font-size="11" font-weight="700">
+    <text x="46" y="92" text-anchor="middle">1</text>
+    <text x="46" y="136" text-anchor="middle">2</text>
+    <text x="46" y="180" text-anchor="middle">3</text>
+    <text x="46" y="224" text-anchor="middle">4</text>
+    <text x="46" y="268" text-anchor="middle">5</text>
+    <text x="46" y="312" text-anchor="middle">6</text>
+  </g>
+  <rect x="80" y="28" width="532" height="48" fill="#21A366"/>
+  <text x="100" y="58" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">Interview Evaluation Scorecard</text>
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#065F46">
+    <rect x="80" y="76" width="532" height="36" fill="#D1FAE5"/>
+    <text x="96" y="99">Candidate</text>
+    <text x="250" y="99">Comm /5</text>
+    <text x="340" y="99">HR /5</text>
+    <text x="420" y="99">Solve /5</text>
+    <text x="510" y="99">Total</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#111827">
+    <rect x="80" y="112" width="532" height="40" fill="#FFFFFF"/>
+    <text x="96" y="138">Priya Nair</text>
+    <text x="268" y="138">4</text>
+    <text x="354" y="138">5</text>
+    <text x="438" y="138">4</text>
+    <text x="516" y="138" fill="#217346" font-weight="700">17</text>
+    <rect x="80" y="152" width="532" height="40" fill="#ECFDF5"/>
+    <text x="96" y="178">Karan Mehta</text>
+    <text x="268" y="178">4</text>
+    <text x="354" y="178">4</text>
+    <text x="438" y="178">4</text>
+    <text x="516" y="178" fill="#217346" font-weight="700">16</text>
+    <rect x="80" y="192" width="532" height="40" fill="#FFFFFF"/>
+    <text x="96" y="218">Isha Rao</text>
+    <text x="268" y="218">3</text>
+    <text x="354" y="218">4</text>
+    <text x="438" y="218">4</text>
+    <text x="516" y="218" fill="#217346" font-weight="700">15</text>
+    <rect x="80" y="232" width="532" height="40" fill="#ECFDF5"/>
+    <text x="96" y="258">Dev Patel</text>
+    <text x="268" y="258">4</text>
+    <text x="354" y="258">3</text>
+    <text x="438" y="258">3</text>
+    <text x="516" y="258" fill="#B45309" font-weight="700">14</text>
+  </g>
+  <g>
+    <rect x="96" y="292" width="150" height="56" rx="10" fill="#217346"/>
+    <text x="114" y="316" fill="#BBF7D0" font-family="Arial, sans-serif" font-size="12">Interviews</text>
+    <text x="114" y="338" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">7 scored</text>
+    <rect x="262" y="292" width="150" height="56" rx="10" fill="#166534"/>
+    <text x="280" y="316" fill="#BBF7D0" font-family="Arial, sans-serif" font-size="12">Finalists</text>
+    <text x="280" y="338" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">4</text>
+    <rect x="428" y="292" width="160" height="56" rx="10" fill="#14532D"/>
+    <text x="446" y="316" fill="#BBF7D0" font-family="Arial, sans-serif" font-size="12">Joining dates</text>
+    <text x="446" y="338" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">3</text>
+  </g>
+</svg>

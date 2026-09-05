@@ -7,7 +7,7 @@ import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const SITE_URL = "https://jiya-portfolio.vercel.app";
+const SITE_URL = "https://jiya-portfolio-hr.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

@@ -8,8 +8,13 @@ export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const project = projects.find((p) => p.slug === params.slug);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const project = projects.find((p) => p.slug === slug);
   if (!project) return {};
   return {
     title: `${project.title} · Jiya Yadav`,
@@ -22,8 +27,13 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   };
 }
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
-  const project = projects.find((p) => p.slug === params.slug);
+export default async function ProjectPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const project = projects.find((p) => p.slug === slug);
   if (!project) notFound();
 
   return (
@@ -54,9 +64,10 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               Open sheet <FaArrowUpRightFromSquare size={12} />
             </a>
           )}
-          {"gitLink" in project && project.gitLink && (
+          {"gitLink" in project &&
+            typeof (project as { gitLink?: unknown }).gitLink === "string" && (
             <a
-              href={project.gitLink}
+              href={(project as { gitLink: string }).gitLink}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-sm px-4 py-2 rounded-lg bg-black-200/60 border border-white/[0.1] text-white hover:border-white/30 transition"
